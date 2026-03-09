@@ -5,4 +5,18 @@
     --color-base: #F5F7FA;
     --color-main: #263238;
     --color-accent: #03A9F4;
+
+    --font: var(--font-inter), var(--font-noto-sans-jp), system-ui, sans-serif;
+}
+
+/* 基本設定 */
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: var(--color-base);
+    color: var(--color-main);
+    font-family: var(--font);
+    line-height: 1.75;
 }
