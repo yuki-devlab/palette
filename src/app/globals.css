@@ -19,7 +19,6 @@ body {
     color: var(--color-main);
     font-family: var(--font);
     letter-spacing: 0.05em;
-    line-height: 1.75;
 }
 
 button {
