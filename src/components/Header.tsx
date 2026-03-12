@@ -18,11 +18,13 @@ export default function Header() {
                         {isHome ? <h1><Logo /></h1> : <Logo />}
                     </Link>
                     <div className="flex gap-6 items-center text-sm">
-                        <Link href="/how-to-use" className="flex items-center text-gray-500">
-                            <QuestionMarkCircleIcon className="mr-1 size-5" />
-                            使い方
+                        <Link href="/how-to-use" className="flex gap-1 items-center text-gray-500">
+                            <QuestionMarkCircleIcon className="size-5" />
+                            <span className="[text-box:trim-both_cap_alphabetic]">
+                                使い方
+                            </span>
                         </Link>
-                        <button className="bg-[var(--color-accent)] font-bold px-4 py-3 rounded-full text-white">
+                        <button className="[text-box:trim-both_cap_alphabetic] bg-[var(--color-accent)] font-bold p-4 rounded-full text-white">
                             ログイン
                         </button>
                     </div>
