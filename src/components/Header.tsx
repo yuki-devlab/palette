@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { QuestionMarkCircleIcon } from "@heroicons/react/24/outline";
 import Logo from "@/components/Logo";
 import Container from "@/components/Container";
+import LogInButton from "@/components/LogInButton";
 
 export default function Header() {
     const pathname = usePathname();
@@ -24,9 +25,7 @@ export default function Header() {
                                 使い方
                             </span>
                         </Link>
-                        <button className="[text-box:trim-both_cap_alphabetic] bg-[var(--color-accent)] font-bold p-4 rounded-full text-white hover:bg-[var(--color-blue)]">
-                            ログイン
-                        </button>
+                        <LogInButton />
                     </div>
                 </div>
             </Container>
