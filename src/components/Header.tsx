@@ -18,13 +18,13 @@ export default function Header() {
                         {isHome ? <h1><Logo /></h1> : <Logo />}
                     </Link>
                     <div className="flex gap-6 items-center text-sm">
-                        <Link href="/how-to-use" className="flex gap-1 items-center text-gray-500">
+                        <Link href="/how-to-use" className="flex gap-1 items-center text-gray-500 hover:text-gray-700">
                             <QuestionMarkCircleIcon className="size-5" />
                             <span className="[text-box:trim-both_cap_alphabetic]">
                                 使い方
                             </span>
                         </Link>
-                        <button className="[text-box:trim-both_cap_alphabetic] bg-[var(--color-accent)] font-bold p-4 rounded-full text-white">
+                        <button className="[text-box:trim-both_cap_alphabetic] bg-[var(--color-accent)] font-bold p-4 rounded-full text-white hover:bg-[var(--color-blue)]">
                             ログイン
                         </button>
                     </div>
