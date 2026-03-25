@@ -11,6 +11,9 @@ importers:
       '@auth/prisma-adapter':
         specifier: ^2.11.1
         version: 2.11.1(@prisma/client@7.5.0(prisma@7.5.0(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))
+      '@material-symbols-svg/react':
+        specifier: ^0.2.1
+        version: 0.2.1(react@19.2.3)
       '@prisma/adapter-pg':
         specifier: ^7.5.0
         version: 7.5.0
@@ -433,6 +436,33 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@material-symbols-svg/react@0.2.1':
+    resolution: {integrity: sha512-TOuA6CoUShyWVqpHXjtH/aWApH6vRS1HomgNXhGn/h+EhXF9MQKDGHE0GVXJEO5BultPtBnZ9ffKeQqrdMHRLQ==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  '@material-symbols/svg-100@0.42.3':
+    resolution: {integrity: sha512-whUkVTYcRgNER+SKhYii0NUUSZxoAWvNBWIEtECR5v6/j7jQZ983ZR9lKAjBnKJ6BbJyNBNZU9PGjx6KKOfeaQ==}
+
+  '@material-symbols/svg-200@0.42.3':
+    resolution: {integrity: sha512-svhlhrY6Ep1TqPZVJOQyaDbQHvVlcgr7QuIiVLNuad8/FkDjO325KVFlNJDeuBuXQeN26nW9FrIxM62hoXf0NA==}
+
+  '@material-symbols/svg-300@0.42.3':
+    resolution: {integrity: sha512-3NV8HQ8yjxZZne+YQgWKzxoGke2dtDjeG4eeZV8ybgEhVtGIj/GHeE/4WB7lhHz7wYb0Zzd/fEgTpYeBY8UrKA==}
+
+  '@material-symbols/svg-400@0.42.3':
+    resolution: {integrity: sha512-uF0CukI6QuiO+SAHYzmc1tYKnzZ18FlRJb7iElohjaqVj/OPA5pZAugBMmcAxWJKkQ+LPJmiJr5MspQCVCu4aQ==}
+
+  '@material-symbols/svg-500@0.42.3':
+    resolution: {integrity: sha512-fJx5yOIYmpdUrCKC8UbcX3HksDIkzzHSBVDmjq6Kwb/LwdsptUsSlDrR22b47sEoPtfFnv2xcXQ23WuwjQ9otg==}
+
+  '@material-symbols/svg-600@0.42.3':
+    resolution: {integrity: sha512-WGgqrjOyyAJpRjuDiI/UIVL4qZhxqmILrk3cWdzFH04eZUXjsQ09XIUU++/ww0MAmvUGTWrjSe4CLF+UMTk5Iw==}
+
+  '@material-symbols/svg-700@0.42.3':
+    resolution: {integrity: sha512-RDD1EO2or1YW4ebdk66gE8RPscHhI5BO13ZrzJ7lOqcyTR5+l3YmA8Pco+TPXtpoDu8yEW/uL0up/dJ8kVM5qQ==}
 
   '@mrleebo/prisma-ast@0.13.1':
     resolution: {integrity: sha512-XyroGQXcHrZdvmrGJvsA9KNeOOgGMg1Vg9OlheUsBOSKznLMDl+YChxbkboRHvtFYJEMRYmlV3uoo/njCw05iw==}
@@ -2795,6 +2825,31 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@material-symbols-svg/react@0.2.1(react@19.2.3)':
+    dependencies:
+      '@material-symbols/svg-100': 0.42.3
+      '@material-symbols/svg-200': 0.42.3
+      '@material-symbols/svg-300': 0.42.3
+      '@material-symbols/svg-400': 0.42.3
+      '@material-symbols/svg-500': 0.42.3
+      '@material-symbols/svg-600': 0.42.3
+      '@material-symbols/svg-700': 0.42.3
+      react: 19.2.3
+
+  '@material-symbols/svg-100@0.42.3': {}
+
+  '@material-symbols/svg-200@0.42.3': {}
+
+  '@material-symbols/svg-300@0.42.3': {}
+
+  '@material-symbols/svg-400@0.42.3': {}
+
+  '@material-symbols/svg-500@0.42.3': {}
+
+  '@material-symbols/svg-600@0.42.3': {}
+
+  '@material-symbols/svg-700@0.42.3': {}
 
   '@mrleebo/prisma-ast@0.13.1':
     dependencies:
