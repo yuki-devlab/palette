@@ -13,11 +13,11 @@ export default function GeneratorCard({ url, label, description, GeneratorIcon }
             <div className="bg-blue-200 flex h-[200px] items-center justify-center rounded-t-3xl">
                 <GeneratorIcon />
             </div>
-            <div className="[text-box:trim-both_cap_alphabetic] px-6 py-7 space-y-6">
-                <h2 className="font-bold text-center text-gray-600">
+            <div className="px-6 py-7 space-y-6">
+                <h2 className="[text-box:trim-both_cap_alphabetic] font-bold text-center text-gray-600">
                     {label}
                 </h2>
-                <p className="leading-relaxed text-gray-500 text-xs">
+                <p className="[text-box:trim-both_cap_alphabetic] leading-relaxed text-gray-500 text-xs">
                     {description}
                 </p>
             </div>
